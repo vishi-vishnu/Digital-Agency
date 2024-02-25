@@ -84,11 +84,11 @@ body {
 #banner-2 .bannerbox-2:hover {
   transform: translate(0, -30px);
   transition: 0.7s;
-  /* transition-timing-function: ease; */
+  transition-timing-function: ease;
 }
 
 #about-us img {
-  height: 550px;
+  width: 525px;
 }
 
 #about-us h1 {
