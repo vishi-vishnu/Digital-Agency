@@ -55,10 +55,8 @@ body {
 }
 
 .home-img {
-  height: 435px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 435px;
+  width: 100%;
 }
 
 /* banner-2 */
@@ -88,8 +86,24 @@ body {
 }
 
 #about-us img {
-  width: 525px;
+  max-width: 525px;
+  width: 100%;
+  filter: drop-shadow(-5px -5px 100px #e0cbc2);
 }
+
+/* @media (max-width: 800px) {
+  #about-us img {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .main-content {
+    margin: 0 10px;
+  }
+} */
 
 #about-us h1 {
   font-weight: 600;
